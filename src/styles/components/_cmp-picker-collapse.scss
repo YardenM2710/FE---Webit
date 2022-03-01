@@ -1,0 +1,63 @@
+.cmp-picker-collapse{
+box-shadow: 3px -1px 3px -3px #000000;
+position: relative;
+display: flex;
+flex-direction: column;
+background-color: #2f3542 ;
+color: #f7f1e3;
+
+
+.collapse-items {
+    padding:  0px 0px;
+    // padding:10px;
+}
+
+
+
+.el-collapse-item{
+    
+    >div{
+        padding:0px 10px;
+        // background-color: #2f3542 ;
+        // background-color: #40407a ;
+        // background-color: #ececff ;
+        background-color: #ececff ;
+        background-color: #2f3542 ;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.226);
+        div{
+            // background-color: #40407a ;
+            background-color: #ececff ;
+            background-color: #2f3542 ;
+
+            border: none;
+            font-size:0.9em;
+            // color: #f7f1e3;
+            color: #40407a;
+            color: #dbdbdb;
+            font-family: Montserrat;
+            font-weight: bold;
+        }
+    }
+}
+.el-collapse-item div:hover {
+    background-color: #3a404d44 ;
+
+
+}
+// .el-collapse-item:hover div>div{
+//     background-color: rgba(199, 199, 199, 0.329);
+// }
+
+}
+.el-collapse-item__arrow.el-icon-arrow-right::before{
+    content: "\e6df" !important;
+}
+
+.el-collapse-item__arrow.is-active {
+    transform: rotate(
+180deg) !important;
+}
+
+   
+
+   

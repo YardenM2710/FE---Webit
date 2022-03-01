@@ -1,0 +1,29 @@
+.wap-img-sunny{
+    // width: 50%;
+    height:100%;
+    
+    img{
+        object-fit:cover;
+        vertical-align: middle;
+    }
+}
+
+.wap-bg-img{
+    background-position: 50% 0;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    
+}
+
+.wap-img-feliciano{
+    height:100%;
+    
+    display: flex;
+    
+    img{
+        padding-right: 10px;
+        height:360px;
+        object-fit:cover;
+        vertical-align: middle;
+    }
+}

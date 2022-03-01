@@ -1,0 +1,67 @@
+.theme-hero-sunnyside{
+    // background-color: rgb(2, 164, 240);
+    padding-top: 20px;
+    color: white;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 0;
+    text-align: center;
+    height: 100vh;
+    h1{
+        font-size: 3rem;
+        margin-top: 80px;
+        text-align: center;
+    }
+    
+    // .inner-container{
+    //     display: flex;
+    //     justify-content: space-between;
+    //     margin-inline-start: 50px;
+    //     margin-inline-end: 50px;
+    
+    // }
+    .theme-header-sunnyside{
+        display: flex;
+        justify-content: space-between;
+        .logo{
+            img:not(.basic-el-toolbar img) {
+                height: 30px;
+                width: 100%;
+                object-fit: contain;
+                margin-inline-start: 10px;
+            }
+        }
+        .nav-bar{
+            // flex: 2;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+
+            a{
+                border: 2px transparent solid ;
+                padding: 10px;
+                color: white;
+                text-decoration: none;
+            }
+         
+            a:hover{
+                background-color: rgba(255, 255, 255, 0.294);
+            }
+        }
+    }
+}
+
+@media (max-width: 800px){
+    .theme-hero-sunnyside{
+        .theme-header-sunnyside{
+            .nav-bar{
+                display: none;
+            }
+            .burger-btn{
+        // margin-inline-end: 40px;
+             display: inline;
+        // margin-top: 2rem;
+         }
+        }
+    }
+}

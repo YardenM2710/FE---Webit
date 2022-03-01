@@ -1,0 +1,74 @@
+.wap-header-fylo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1c2431;
+    width: 100%;
+    padding: 2em;
+    margin: 0 auto;
+
+    .logo{
+        width: 6em;
+    }
+
+    .nav-bar{
+        list-style: none;
+        display: flex;
+        gap: 1em;
+
+        a{
+            text-decoration: none;
+            color: $White;
+            opacity: 0.7;
+
+            &:hover{
+                text-decoration: underline;
+                text-underline-offset: 2px;
+                opacity: 1;
+            }
+        }
+    }
+}
+
+.wap-header-default {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0);
+    align-items: center;
+
+    .logo{
+        display: flex;
+        margin: 0;
+        align-items: center;
+    }
+    .nav-bar{
+        display: flex;
+        a{
+            text-decoration: none;
+            margin-right: 20px;
+        }
+        a:hover{
+            box-shadow: 0px 2px 1px -1px #000000;
+            background-color: rgba(233, 233, 233, 0.226);
+        }
+    }
+  
+}
+
+
+@media only screen and (min-width : 768px) {
+    header{
+    
+        padding: 3em;
+    
+        .logo{
+            width: 10em;
+        }
+    
+        ul{
+            gap: 3.5em;
+            font-size: 1rem;
+        }
+    }
+}

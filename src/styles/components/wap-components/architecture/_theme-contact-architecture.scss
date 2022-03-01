@@ -1,0 +1,26 @@
+.theme-contact-architecture{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#32353d;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(214, 214, 214);
+    padding: 40px;
+       h2{
+           font-weight: bold;
+           font-family: poppins;
+       } 
+       button:not(.element-tool-bar .tool-element ,.element-editor-cmp button, .basic-el-toolbar button){
+           cursor: pointer;
+           padding: 10px;
+           border: 1px solid rgba(0, 0, 0, 0);
+           border-radius:20px;
+           background-color: #fff;
+           transition:0.3s;
+       }
+       button:hover:not(.element-tool-bar .tool-element ,.element-editor-cmp button, .basic-el-toolbar button){
+           padding: 12px;
+
+       }
+}
